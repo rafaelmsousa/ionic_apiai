@@ -1,0 +1,21 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Bem vindo!</h2>
+
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" name="textoInput" id="textoInput" ng-model="textoInput" placeholder="Diga algo">
+      </label>
+      
+      <button class="button button-positive" ng-click="textRequest()">
+        <i class="ion-compose"> Text Request</i> Enviar
+      </button>
+    </div>
+
+    <button class="button button-positive" ng-click="voiceRequest()" >
+      <i class="ion-mic-a"> Voice Request</i> Enviar
+    </button>
+
+
+  </ion-content>
+</ion-view>
